@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.main{
+    position: relative;
+    top:150px;
+}
+.main #star{
+    background-color: #F5C044;
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+#star span{
+    position: relative;
+    top:50%;
+    left: 50%;
+
+}
