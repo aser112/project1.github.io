@@ -2,6 +2,10 @@
     margin:0px;
     padding: 0px;
     font-family: "Sora", sans-serif;
+
+}
+body{
+    background-color: #FAFAF9;
 }
 .main{
     position: relative;
@@ -30,7 +34,7 @@ h1{
 }
 article{
     font-size: 1.25rem;
-    max-width: 35ch;
+    max-width: 34ch;
     color: #52525A;
     margin-bottom:25px ;
 }
@@ -38,4 +42,41 @@ article{
     display:flex;
     flex-direction: column;
     color: #52525A;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 350px;
+    height:200px ;
+    box-shadow:#D4D4D8 0px 0px 20px 3px;
+    border-radius: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items:center ;
+}
+.logo {
+    height:35px;
+}
+.stars{
+    margin-bottom: 10px;
+}
+.review strong{
+    margin-bottom: 10px;
+}
+.google{
+    position: absolute;
+    left: 800px;
+    bottom: 280px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.meta{
+    position: absolute;
+    left: 650px;
+    bottom: 50px;
 }
