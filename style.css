@@ -1,10 +1,12 @@
 *{
     margin:0px;
     padding: 0px;
+    font-family: "Sora", sans-serif;
 }
 .main{
     position: relative;
     top:150px;
+    padding: 50px;
 }
 .main #star{
     background-color: #F5C044;
@@ -12,10 +14,28 @@
     display: block;
     height: 50px;
     width: 50px;
+    position: relative;
+    margin-bottom:20px ;
 }
 #star span{
-    position: relative;
+    display: block;
+    position: absolute;
     top:50%;
     left: 50%;
-
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 2.25rem;
+    margin-bottom:20px ;
+}
+article{
+    font-size: 1.25rem;
+    max-width: 35ch;
+    color: #52525A;
+    margin-bottom:25px ;
+}
+.checklist{
+    display:flex;
+    flex-direction: column;
+    color: #52525A;
 }
